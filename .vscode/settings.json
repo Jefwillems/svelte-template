@@ -1,4 +1,13 @@
 {
-    "eslint.alwaysShowStatus": true,
-    "eslint.autoFixOnSave": true
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "files.associations": {},
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "svelte",
+      "autoFix": true
+    }
+  ]
 }

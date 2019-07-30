@@ -20,5 +20,7 @@ module.exports = {
   }],
   plugins: ['svelte3'],
   rules: {
+    "import/no-mutable-exports": 0,
+    "import/prefer-default-export": 0
   },
 };

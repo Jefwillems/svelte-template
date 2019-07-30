@@ -2,7 +2,7 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "devDependencies": {
-    "eslint": "^5.16.0",
+    "eslint": "^6.1.0",
     "eslint-config-airbnb-base": "^13.2.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-svelte3": "^2.7.3",
@@ -23,6 +23,7 @@
     "autobuild": "rollup -c -w",
     "dev": "run-p start:dev autobuild",
     "start": "sirv public --single",
-    "start:dev": "sirv public --single --dev"
+    "start:dev": "sirv public --single --dev",
+    "lint": "eslint src/ --ext '.svelte'"
   }
 }
